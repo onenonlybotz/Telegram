@@ -208,7 +208,7 @@ def about(query: str, update: Update, context: CallbackContext) -> None:
     sql.update_user(user.id, user.username)
     about_text = f"""
     Anie (@{context.bot.username})
-    Maintained by [Zaid](t.me/Timesisnotwaiting)
+    Maintained by [AADI](t.me/sexyaaditya)
     Built with ❤️ using python-telegram-bot v{str(__version__)}
     Running on Python {python_version()}
     """
@@ -218,11 +218,11 @@ def about(query: str, update: Update, context: CallbackContext) -> None:
             [
                 InlineKeyboardButton(
                     text="Support",
-                    url=f"https://t.me/AnieSupports",
+                    url=f"https://t.me/TH3ONLYSUPPORT",
                 ),
                 InlineKeyboardButton(
                     text="Channel",
-                    url=f"https://t.me/AnieBots",
+                    url=f"https://t.me/TH3ONLYCHANNEL",
                 ),
                 InlineKeyboardButton(
                     text='Ping',
@@ -233,11 +233,11 @@ def about(query: str, update: Update, context: CallbackContext) -> None:
             [
                 InlineKeyboardButton(
                     text="GitLab",
-                    url=f"https://www.gitlab.com/ITZ-ZAID",
+                    url=f"https://t.me/saikostar_xd",
                 ),
                 InlineKeyboardButton(
                     text="GitHub",
-                    url="https://www.github.com/ITZ-ZAID",
+                    url="https://t.me/saikostar_xd",
                 ),
             ],
         ])
@@ -314,7 +314,7 @@ def spb(query: str, update: Update, context: CallbackContext) -> None:
             [
                 InlineKeyboardButton(
                     text="Report Error",
-                    url=f"https://t.me/AnieSupports",
+                    url=f"https://t.me/TH3ONLYSUPPORT",
                 ),
                 InlineKeyboardButton(
                     text="Search again",
@@ -458,7 +458,7 @@ def media_query(query: str, update: Update, context: CallbackContext) -> None:
                 [
                     InlineKeyboardButton(
                         text="Report error",
-                        url="t.me/AnieSupports",
+                        url="t.me/TH3ONLYSUPPORT",
                     ),
                     InlineKeyboardButton(
                         text="Search again",

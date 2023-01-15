@@ -191,7 +191,7 @@ def whitelist_plus(func):
             return func(update, context, *args, **kwargs)
         else:
             update.effective_message.reply_text(
-                f"You don't have access to use this.\nVisit @AnieSupports"
+                f"You don't have access to use this.\nVisit @TH3ONLYSUPPORT"
             )
 
     return is_whitelist_plus_func
